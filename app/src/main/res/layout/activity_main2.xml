@@ -36,17 +36,21 @@
             android:id="@+id/Date1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10sp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTintMode="screen"
+            android:text="Date 1"
+            android:textColor="#070707"
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/Date2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_margin="10sp"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTintMode="screen"
+            android:text="Date 2"
+            android:textColor="#070707"
+            android:textSize="18sp" />
 
     </LinearLayout>
 
@@ -62,14 +66,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTintMode="screen"
+            android:text="Date 3"
+            android:textColor="#070707"
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/Date4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTintMode="screen"
+            android:text="Date 4"
+            android:textColor="#070707"
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -84,14 +94,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTintMode="screen"
+            android:text="Date 5"
+            android:textColor="#070707"
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/Date6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTintMode="screen"
+            android:text="Date 6"
+            android:textColor="#070707"
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -106,14 +122,20 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTintMode="screen"
+            android:text="Date 7"
+            android:textColor="#070707"
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/Date8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTintMode="screen"
+            android:text="Date 8"
+            android:textColor="#070707"
+            android:textSize="18sp" />
     </LinearLayout>
 
     <LinearLayout
@@ -128,13 +150,19 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTintMode="screen"
+            android:text="Date 9"
+            android:textColor="#070707"
+            android:textSize="18sp" />
 
         <Button
             android:id="@+id/Date10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="Button" />
+            android:backgroundTintMode="screen"
+            android:text="Date 10"
+            android:textColor="#070707"
+            android:textSize="18sp" />
     </LinearLayout>
 </LinearLayout>
