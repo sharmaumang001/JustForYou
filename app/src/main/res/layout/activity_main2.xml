@@ -16,7 +16,7 @@
         <TextView
             android:id="@+id/text2"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
             android:text="Click on any of the following buton and u will get to know about one of our special day!"
@@ -28,7 +28,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="35sp"
+        android:layout_margin="25sp"
         android:background="#B21F66"
         android:orientation="horizontal">
 
@@ -57,7 +57,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="35sp"
+        android:layout_margin="25sp"
         android:background="#B21F66"
         android:orientation="horizontal">
 
@@ -85,7 +85,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="35sp"
+        android:layout_margin="25sp"
         android:background="#B21F66"
         android:orientation="horizontal">
 
@@ -113,7 +113,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="35sp"
+        android:layout_margin="25sp"
         android:background="#B21F66"
         android:orientation="horizontal">
 
@@ -141,7 +141,7 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_margin="35sp"
+        android:layout_margin="25sp"
         android:background="#B21F66"
         android:orientation="horizontal">
 
