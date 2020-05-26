@@ -1,3 +1,15 @@
 <resources>
     <string name="app_name">JustForYou</string>
+    <string name="date1"></string>
+    <string name="date2"></string>
+    <string name="date3"></string>
+    <string name="date4"></string>
+    <string name="date5"></string>
+    <string name="date6"></string>
+    <string name="date7"></string>
+    <string name="date8"></string>
+    <string name="date9"></string>
+    <string name="date10"></string>
+    <string name="default_Text">This Photo may or may not belong the mentioned date!!!</string>
+    <string name="text1">A small surprise from someone yours.</string>
 </resources>
