@@ -20,27 +20,27 @@ public class Main3Activity extends AppCompatActivity {
         Log.d("justForYou","DATE CHOSEN IS    "+mDateNumber);
 
 
-        if(mDateNumber == "1"){
-            mTextView.setText(R.string.date1);
-        }else if(mDateNumber=="2"){
-            mTextView.setText(R.string.date2);
-        }else if(mDateNumber=="3"){
-            mTextView.setText(R.string.date3);
-        }else if(mDateNumber=="4"){
-            mTextView.setText(R.string.date4);
-        }else if(mDateNumber=="5"){
-            mTextView.setText(R.string.date5);
-        }else if(mDateNumber=="6"){
-            mTextView.setText(R.string.date6);
-        }else if(mDateNumber=="7"){
-            mTextView.setText(R.string.date7);
-        }else if(mDateNumber=="8"){
-            mTextView.setText(R.string.date8);
-        }else if(mDateNumber=="9"){
-            mTextView.setText(R.string.date9);
-        }else{
-            mTextView.setText(R.string.date10);
-        }
+//        if(mDateNumber == "1"){
+//            mTextView.setText(R.string.date1);
+//        }else if(mDateNumber=="2"){
+//            mTextView.setText(R.string.date2);
+//        }else if(mDateNumber=="3"){
+//            mTextView.setText(R.string.date3);
+//        }else if(mDateNumber=="4"){
+//            mTextView.setText(R.string.date4);
+//        }else if(mDateNumber=="5"){
+//            mTextView.setText(R.string.date5);
+//        }else if(mDateNumber=="6"){
+//            mTextView.setText(R.string.date6);
+//        }else if(mDateNumber=="7"){
+//            mTextView.setText(R.string.date7);
+//        }else if(mDateNumber=="8"){
+//            mTextView.setText(R.string.date8);
+//        }else if(mDateNumber=="9"){
+//            mTextView.setText(R.string.date9);
+//        }else{
+//            mTextView.setText(R.string.date10);
+//        }
 
     }
 
