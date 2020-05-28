@@ -9,7 +9,7 @@ import android.widget.Button;
 
 public class Main2Activity extends AppCompatActivity {
     public Button mDate1,mDate2,mDate3,mDate4,mDate5,mDate6,mDate7,mDate8,mDate9,mDate10;
-    public String mDateNumber;
+    public int mDateNumber;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -29,7 +29,7 @@ public class Main2Activity extends AppCompatActivity {
         mDate1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mDateNumber="1";
+                mDateNumber=1 ;
                 Intent mIntent = new Intent(Main2Activity.this,Main3Activity.class);
                 mIntent.putExtra("mDateValue",mDateNumber);
                 startActivity(mIntent);
@@ -40,7 +40,7 @@ public class Main2Activity extends AppCompatActivity {
         mDate2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mDateNumber="2";
+                mDateNumber=2;
                 Intent mIntent = new Intent(Main2Activity.this,Main3Activity.class);
                 mIntent.putExtra("mDateValue",mDateNumber);
                 startActivity(mIntent);
@@ -50,7 +50,7 @@ public class Main2Activity extends AppCompatActivity {
         mDate3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mDateNumber="3";
+                mDateNumber=3;
                 Intent mIntent = new Intent(Main2Activity.this,Main3Activity.class);
                 mIntent.putExtra("mDateValue",mDateNumber);
                 startActivity(mIntent);
@@ -60,7 +60,7 @@ public class Main2Activity extends AppCompatActivity {
         mDate4.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mDateNumber="4";
+                mDateNumber=4;
                 Intent mIntent = new Intent(Main2Activity.this,Main3Activity.class);
                 mIntent.putExtra("mDateValue",mDateNumber);
                 startActivity(mIntent);
@@ -70,7 +70,7 @@ public class Main2Activity extends AppCompatActivity {
         mDate5.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mDateNumber="5";
+                mDateNumber=5;
                 Intent mIntent = new Intent(Main2Activity.this,Main3Activity.class);
                 mIntent.putExtra("mDateValue",mDateNumber);
                 startActivity(mIntent);
@@ -81,7 +81,7 @@ public class Main2Activity extends AppCompatActivity {
         mDate6.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mDateNumber="6";
+                mDateNumber=6;
                 Intent mIntent = new Intent(Main2Activity.this,Main3Activity.class);
                 mIntent.putExtra("mDateValue",mDateNumber);
                 startActivity(mIntent);
@@ -92,7 +92,7 @@ public class Main2Activity extends AppCompatActivity {
         mDate7.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mDateNumber="7";
+                mDateNumber=7;
                 Intent mIntent = new Intent(Main2Activity.this,Main3Activity.class);
                 mIntent.putExtra("mDateValue",mDateNumber);
                 startActivity(mIntent);
@@ -103,7 +103,7 @@ public class Main2Activity extends AppCompatActivity {
         mDate8.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mDateNumber="8";
+                mDateNumber=8;
                 Intent mIntent = new Intent(Main2Activity.this,Main3Activity.class);
                 mIntent.putExtra("mDateValue",mDateNumber);
 
@@ -115,7 +115,7 @@ public class Main2Activity extends AppCompatActivity {
         mDate9.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mDateNumber="9";
+                mDateNumber=9;
                 Intent mIntent = new Intent(Main2Activity.this,Main3Activity.class);
                 mIntent.putExtra("mDateValue",mDateNumber);
                 finish();
@@ -127,7 +127,7 @@ public class Main2Activity extends AppCompatActivity {
         mDate10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                mDateNumber="10";
+                mDateNumber=10;
 
                 Intent mIntent = new Intent(Main2Activity.this,Main3Activity.class);
                 mIntent.putExtra("mDateValue",mDateNumber);
