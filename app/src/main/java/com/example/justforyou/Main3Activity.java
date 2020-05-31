@@ -64,7 +64,6 @@ public class Main3Activity extends AppCompatActivity {
             if (mDateNumber == 10) {
                 mTextView.setText(R.string.date10);
             }
-
     }
 
 }
