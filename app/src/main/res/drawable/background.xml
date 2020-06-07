@@ -3,16 +3,19 @@
 
     <item
         android:drawable="@drawable/background1"
-        android:duration="3000"/>
+        android:duration="2000"/>
+
+    <item
+        android:drawable="@drawable/background2"
+        android:duration="2000"/>
 
     <item
         android:drawable="@drawable/background3"
-        android:duration="3000"/>
+        android:duration="2000"/>
 
     <item
         android:drawable="@drawable/background4"
-        android:duration="3000"/>
-
+        android:duration="2000"/>
 
 
 </animation-list>

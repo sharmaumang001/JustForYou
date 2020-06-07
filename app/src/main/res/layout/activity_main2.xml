@@ -11,7 +11,8 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:layout_marginBottom="25dp">
 
         <TextView
             android:id="@+id/text2"
@@ -19,17 +20,17 @@
             android:layout_height="wrap_content"
             android:layout_margin="10dp"
             android:layout_weight="1"
-            android:text="Click on any of the following buton and u will get to know about one of our special day!"
+            android:text="Click on any of the following button and you willl get to know about one of our special day!"
             android:textAlignment="center"
             android:textColor="#FFFFFF"
-            android:textSize="30sp" />
+            android:textSize="20sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="25sp"
-        android:background="#B21F66"
+        android:background="#381460"
         android:orientation="horizontal">
 
         <Button
@@ -37,20 +38,22 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTintMode="screen"
+            android:layout_marginHorizontal="10dp"
+            android:background="@drawable/button_2"
             android:text="Date 1"
             android:textColor="#070707"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
 
         <Button
             android:id="@+id/Date2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTintMode="screen"
+            android:background="@drawable/button_2"
+            android:layout_marginHorizontal="10dp"
             android:text="Date 2"
             android:textColor="#070707"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
 
     </LinearLayout>
 
@@ -58,7 +61,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="25sp"
-        android:background="#B21F66"
+        android:background="#381460"
         android:orientation="horizontal">
 
         <Button
@@ -66,27 +69,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTintMode="screen"
+            android:background="@drawable/button_2"
+            android:layout_marginHorizontal="10dp"
             android:text="Date 3"
             android:textColor="#070707"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
 
         <Button
             android:id="@+id/Date4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTintMode="screen"
+            android:background="@drawable/button_2"
+            android:layout_marginHorizontal="10dp"
             android:text="Date 4"
             android:textColor="#070707"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="25sp"
-        android:background="#B21F66"
+        android:background="#381460"
         android:orientation="horizontal">
 
         <Button
@@ -94,27 +99,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTintMode="screen"
+            android:background="@drawable/button_2"
+            android:layout_marginHorizontal="10dp"
             android:text="Date 5"
             android:textColor="#070707"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
 
         <Button
             android:id="@+id/Date6"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTintMode="screen"
+            android:background="@drawable/button_2"
+            android:layout_marginHorizontal="10dp"
             android:text="Date 6"
             android:textColor="#070707"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="25sp"
-        android:background="#B21F66"
+        android:background="#381460"
         android:orientation="horizontal">
 
         <Button
@@ -122,27 +129,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTintMode="screen"
+            android:background="@drawable/button_2"
+            android:layout_marginHorizontal="10dp"
             android:text="Date 7"
             android:textColor="#070707"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
 
         <Button
             android:id="@+id/Date8"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTintMode="screen"
+            android:background="@drawable/button_2"
+            android:layout_marginHorizontal="10dp"
             android:text="Date 8"
             android:textColor="#070707"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
     </LinearLayout>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="25sp"
-        android:background="#B21F66"
+        android:background="#381460"
         android:orientation="horizontal">
 
         <Button
@@ -150,19 +159,21 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTintMode="screen"
+            android:background="@drawable/button_2"
+            android:layout_marginHorizontal="10dp"
             android:text="Date 9"
             android:textColor="#070707"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
 
         <Button
             android:id="@+id/Date10"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:backgroundTintMode="screen"
+            android:background="@drawable/button_2"
+            android:layout_marginHorizontal="10dp"
             android:text="Date 10"
             android:textColor="#070707"
-            android:textSize="18sp" />
+            android:textSize="15sp" />
     </LinearLayout>
 </LinearLayout>
